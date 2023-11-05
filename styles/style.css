@@ -1,0 +1,18 @@
+.intro__container {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30%;
+}
+
+.intro__botao {
+    border: 1px solid #000;
+    padding: 16px;
+    text-transform: uppercase;
+    background-color: #F6F6F6;
+    border-radius: 78% 22% 73% 27% / 0% 100% 0% 100%;
+    
+}
