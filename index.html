@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="./img/logo menor.jpg" type="image/x-icon">
     <title>Love Ring</title>
 </head>
 
@@ -13,26 +15,33 @@
     <header>
         <img src="./img/logo menor.jpg"
             alt="Logo menor da Love Ring, com a letra G com um diamante em cima, representando um anel">
-        <nav>
+        <nav class="navbar">
+            <span class="material-symbols-outlined">
+                menu
+                </span>
             <ul>
-                <li><a href="#Inicio">Início</a></li>
-                <li><a href="#Produtos">Produtos</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
                 <li><a href="./quem-somos/index.html">Quem somos</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="intro">
-            <!-- intro -->
-            <h1>LOVE RING</h1>
-            <a href="">Conheça mais</a>
-        </section>
-        <section class="produtos">
-            <!-- produtos -->
-            <h2>PRODUTOS</h2>
-            <p>Clique na imagem para saber mais!</p>
-            <div class="produtos__container">
-                <img src="" alt="Anel">
+            <div class="intro__container">
+
+                <!-- intro -->
+                <h1>LOVE RING</h1>
+                <a href="#produtos" class="intro__botao">Conheça mais</a>
+            </div>
+            </section>
+            <section class="produtos" id="produtos">
+                <!-- produtos -->
+                <h2>PRODUTOS</h2>
+                <p class="">Clique na imagem para saber mais!</p>
+                <div class="produtos__container">
+                    
+                    <img src="" alt="Anel">
 
                 <div class="overlay">
                     <p>Texto sobre o anel</p>
