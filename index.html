@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="shortcut icon" href="./img/logo menor.jpg" type="image/x-icon">
     <title>Love Ring</title>
 </head>
@@ -16,13 +17,16 @@
         <img src="./img/logo menor.jpg"
             alt="Logo menor da Love Ring, com a letra G com um diamante em cima, representando um anel">
         <nav class="navbar">
-            <span class="material-symbols-outlined">
-                menu
+            <input type="checkbox" name="" id="menu" class="hamburguer-checkbox">
+            <label for="menu">
+                <span class="navbar__hamburguer">
                 </span>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="./quem-somos/index.html">Quem somos</a></li>
+            </label>
+
+            <ul class="navbar__menu">
+                <li class="menu__item"><a href="#inicio" class="menu__item__link">Início</a></li>
+                <li class="menu__item"><a href="#produtos" class="menu__item__link">Produtos</a></li>
+                <li class="menu__item"><a href="./quem-somos/index.html" class="menu__item__link">Quem somos</a></li>
             </ul>
         </nav>
     </header>
@@ -31,63 +35,70 @@
             <div class="intro__container">
 
                 <!-- intro -->
-                <h1>LOVE RING</h1>
-                <a href="#produtos" class="intro__botao">Conheça mais</a>
+                <h1 class="intro__container__titulo">LOVE RING</h1>
+                <a href="#produtos" class="botao intro__botao">Conheça mais</a>
             </div>
-            </section>
-            <section class="produtos" id="produtos">
-                <!-- produtos -->
-                <h2>PRODUTOS</h2>
-                <div class="container">
+        </section>
+        <section class="produtos" id="produtos">
+            <!-- produtos -->
+            <h2>PRODUTOS</h2>
+            <div class="container">
                 <div class="card">
                     <img src="./img/patinho.jpg" alt="Anel de patinho">
                     <div class="card__texto">
                         <h3 class="">Patinho</h3>
-                    </div> 
+                    </div>
                 </div>
                 <div class="card">
                     <img src="" alt="Anel de gatinho">
                     <div class="card__texto">
                         <h3 class="">Gatinho</h3>
-                    </div>    
+                    </div>
                 </div>
                 <div class="card">
                     <img src="" alt="Anel de sapinho">
                     <div class="card__texto">
                         <h3 class="">Sapinho</h3>
-                    </div>   
+                    </div>
                 </div>
-                    <div class="card">
+                <div class="card">
                     <img src="./img/liso.jpg" alt="Anel liso (só com uma cor)">
                     <div class="card__texto">
                         <h3 class="">Liso</h3>
-                    </div>        
-                    </div>        
-                    <div class="card">
+                    </div>
+                </div>
+                <div class="card">
                     <img src="./img/marmorizado.jpg" alt="Anel marmorizado">
                     <div class="card__texto">
                         <h3 class="">Marmorizado</h3>
-                    </div>   
-                    </div>   
-                    <div class="card">
+                    </div>
+                </div>
+                <div class="card">
                     <img src="./img/halloween.jpg" alt="Anel de abóbora baseado no Halloween">
                     <div class="card__texto">
                         <h3 class="">Halloween</h3>
-                    </div>   
-                    </div>   
-                        <div class="card">
+                    </div>
+                </div>
+                <div class="card">
                     <img src="" alt="Anel personalizado">
                     <div class="card__texto">
                         <h3 class="">Personalizado! </h3>
-                    </div>                  
-                    </div>                  
-            </div>
                     </div>
-                <p>Surgiu o interesse em alguma das opções? Ou ainda teve uma ideia incrível? Encomende o seu anel abaixo!</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScVmhGJO2fDz1atz_QbD08oM5MCqK8nF00xvP9wyd17t415UA/viewform">ENCOMENDAR</a>
+                </div>
+            </div>
+            <div class="produtos__final">
+                <p>Surgiu o interesse em alguma das opções? Ou ainda teve uma ideia incrível? Encomende o seu anel
+                    abaixo!</p>
+                <a class="botao produtos__botao"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScVmhGJO2fDz1atz_QbD08oM5MCqK8nF00xvP9wyd17t415UA/viewform">ENCOMENDAR</a>
+            </div>
+        </div>
         </section>
 
     </main>
+    <!-- <footer>
+        <p>Feito por <a href="">Valentina Prado</a>. Colégio Madre Paula Montalt Escolápias - 2023.</p>
+    </footer> -->
 </body>
 
 </html>
