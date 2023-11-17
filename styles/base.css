@@ -23,6 +23,11 @@ html {
     text-decoration: none;
 }
 
+body {
+    font-family: var(--fonte-texto);
+    height: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -44,47 +49,6 @@ header {
     align-items: center;
     position: relative;
 
-}
-.navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* position: fixed; */
-}
-
-.navbar__hamburguer {
-    padding: 1em;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-image: url("../img/Menu.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-}
-
-.navbar__menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    width: 65vw;
-}
-.hamburguer-checkbox {
-    display: none;
-}
-
-.hamburguer-checkbox:checked ~ .navbar__menu {
-    display: block;
-}
-
-.menu__item {
-    padding: 1em;
-    background-color:var(--branco);
-}
-
-.menu__item__link {
-    color: var(--preto);
-    text-transform: uppercase;
-    font-family: var(--fonte-texto);
 }
 .botao {
     text-transform: uppercase;
@@ -115,6 +79,18 @@ header {
 .card img {
     width: 100%;
     height: 70%;
+}
+
+
+footer {
+    background-color: var(--cor-amarelo);
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+
 }
 
 @media screen and (min-width: 768px) {}
