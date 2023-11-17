@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.navbar__hamburguer {
+    padding: 1em;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.navbar__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 65vw;
+}
+.hamburguer-checkbox {
+    display: none;
+}
+
+.hamburguer-checkbox:checked ~ .navbar__menu {
+    display: block;
+}
+
+.menu__item {
+    padding: 1em;
+    background-color:var(--branco);
+}
+
+.menu__item__link {
+    color: var(--cor-amarelo);
+    text-transform: uppercase;
+    font-family: var(--fonte-texto);
+}
