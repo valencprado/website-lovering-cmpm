@@ -16,17 +16,17 @@ Site feito para o Itinerário Formativo de Pequena Empresa do Colégio Madre Pau
 
 **Status**: Em produção ☑️
 
-- [ x ] estrutura do navbar
-- [ x ] estrutura do início
-- [ x ] estrutura dos produtos
-- [ x ] estrutura do quem somos (intro)
-- [ x ] estrutura do quem somos (integrantes)
-- [ x ] estilo do navbar
-- [ x ] estilo do início
-- [ x ] estilo do produtos
-- [ x ] estilo do quem somos (intro)
-- [ x ] estilo do quem somos (intro)
-- [ x ] responsividade para desktop
+- [x] estrutura do navbar
+- [x] estrutura do início
+- [x] estrutura dos produtos
+- [x] estrutura do quem somos (intro)
+- [x] estrutura do quem somos (integrantes)
+- [x] estilo do navbar
+- [x] estilo do início
+- [x] estilo do produtos
+- [x] estilo do quem somos (intro)
+- [x] estilo do quem somos (intro)
+- [x] responsividade para desktop
 
   ## 🔥 Hot fixes
   
