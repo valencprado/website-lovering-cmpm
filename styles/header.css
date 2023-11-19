@@ -1,3 +1,6 @@
+.header__logo-maior {
+    display: none;
+}
 .navbar {
     display: flex;
     flex-direction: column;
@@ -51,5 +54,17 @@
     .navbar__menu--desktop{
         display: flex;
         background-color: var(--branco);
+    }
+    .menu__item__link {
+        transition: all .6s;
+    }
+    .menu__item__link:hover {
+        text-decoration: underline;
+    }
+    .header__logo-maior {
+        display: block;
+    }
+    .header__logo-menor {
+        display: none;
     }
 }

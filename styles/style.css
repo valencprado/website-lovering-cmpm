@@ -41,3 +41,17 @@
     font-weight: 500;
     padding: 1.2rem;
 }
+
+@media screen and (min-width:780px) {
+    .intro__container {
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .intro__container__titulo {
+        font-size: 3rem;
+    }
+    .intro__botao {
+        width: 20%;
+        font-size: 1.3rem;
+    }
+}

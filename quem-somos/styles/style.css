@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1.3em;
     padding: 0 1rem;
     gap: 1rem;
     
@@ -14,4 +15,36 @@
     height: 30%;
     border-radius: 5px 0 0 5px;
     border: 0.6px solid var(--cor-azul);
+}
+
+@media screen and (min-width:780px) {
+    .quem-somos__content {
+        display: flex;
+        padding: 1rem;
+    }
+    .quem-somos__content p {
+        width: 50%;
+    }
+    .integrantes__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 .5rem;
+        gap: 2rem;
+    }
+    .integrantes__integrante {
+        width: 25%;
+        transition: all .5s ease-in-out;
+    }
+    .integrante__nome {
+        font-size: 1.5rem;
+    }
+    .integrante__cargo {
+        font-size: 1.2rem;
+    }
+    .integrantes__integrante:hover {
+        border-color: var(--cor-amarelo);
+        cursor: pointer;
+        background-color: var(--branco);
+        transform: scale(1.1);
+    }
 }
