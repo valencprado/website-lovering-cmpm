@@ -54,4 +54,18 @@
         width: 20%;
         font-size: 1.3rem;
     }
+    .produtos__botao {
+        padding: 1.5rem;
+        font-size: 1.2rem;
+        transition: .7s all;
+    }
+    .produtos__botao:hover {
+        font-weight: bold;
+        box-shadow: 10px 7px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 7px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+    .produtos__final p {
+        font-size: 1.4rem;
+    }
 }
