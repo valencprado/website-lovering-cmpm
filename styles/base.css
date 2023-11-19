@@ -99,6 +99,9 @@ footer {
         width: 25%;
         transition: all .3s;
     }
+    .card h3 {
+        font-size: 1.4rem;
+    }
     .container {
         flex-wrap: wrap;
         flex-direction: row;
