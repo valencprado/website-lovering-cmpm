@@ -57,6 +57,7 @@
     }
     .menu__item__link {
         transition: all .6s;
+        font-size: 1.25rem;
     }
     .menu__item__link:hover {
         text-decoration: underline;
