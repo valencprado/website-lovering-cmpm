@@ -8,8 +8,7 @@
     align-items: center;
     margin-top: 1.3em;
     padding: 0 1rem;
-    gap: 1rem;
-    
+    gap: 1rem;    
 }
 
 .integrantes__integrante {
@@ -20,7 +19,10 @@
     border: 0.6px solid var(--cor-azul);
 }
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:900px) {
+    .quem-somos {
+        height: 80vh;
+    }
     .quem-somos__content {
         display: flex;
         padding: 1rem;
