@@ -1,6 +1,10 @@
 .quem-somos h1 {
     margin: .7em 0;
 }
+.quem-somos__content__texto {
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
 .integrantes__container {
     display: flex;
     flex-direction: column;
@@ -27,8 +31,9 @@
         display: flex;
         padding: 1rem;
     }
-    .quem-somos__content p {
+    .quem-somos__content__textos {
         width: 50%;
+        font-size: 1.1rem;
     }
     .integrantes__container {
         flex-direction: row;
