@@ -30,6 +30,6 @@ Site feito para o Itinerário Formativo de Pequena Empresa do Colégio Madre Pau
 
   ## 🔥 Hot fixes
   
-  - [] bug no navbar
+  - [ ] bug no navbar
  
     *Feito por Valentina Prado*
