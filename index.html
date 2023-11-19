@@ -1,25 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Valentina Corradini Prado">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="./img/logo menor.jpg" type="image/x-icon">
     <title>Love Ring</title>
 </head>
+
 <body>
     <header>
+        <img src="./img/logo menor.jpg"  class="header__logo-menor"
+            alt="Logo menor da Love Ring, com a letra G com um diamante em cima, representando um anel">    
+               <img src="./img/logo maior.jpg" class="header__logo-maior"
+            alt="Logo menor da Love Ring, com a letra G com um diamante em cima, representando um anel">
+        <nav class="navbar">
+            <input type="checkbox" name="" id="menu" class="hamburguer-checkbox">
+            <label for="menu">
+                <span class="navbar__hamburguer">
+                </span>
+            </label>
 
-        <nav></nav>
+            <ul class="navbar__menu">
+                <li class="menu__item"><a href="#inicio" class="menu__item__link">Início</a></li>
+                <li class="menu__item"><a href="#produtos" class="menu__item__link">Produtos</a></li>
+                <li class="menu__item"><a href="./quem-somos/index.html" class="menu__item__link">Quem somos</a></li>
+            </ul>
+            <ul class="navbar__menu--desktop">
+                <li class="menu__item"><a href="#inicio" class="menu__item__link">Início</a></li>
+                <li class="menu__item"><a href="#produtos" class="menu__item__link">Produtos</a></li>
+                <li class="menu__item"><a href="./quem-somos/index.html" class="menu__item__link">Quem somos</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <!-- intro -->
+        <section class="intro">
+            <div class="intro__container">
+
+                <!-- intro -->
+                <h1 class="intro__container__titulo">LOVE RING</h1>
+                <a href="#produtos" class="botao intro__botao">Conheça mais</a>
+            </div>
         </section>
-        <section>
+        <section class="produtos" id="produtos">
             <!-- produtos -->
+            <h2>PRODUTOS</h2>
+            <div class="container">
+                <div class="card">
+                    <img src="./img/patinho.jpg" alt="Anel de patinho">
+                    <div class="card__texto">
+                        <h3 class="">Patinho</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="" alt="Anel de gatinho">
+                    <div class="card__texto">
+                        <h3 class="">Gatinho</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="" alt="Anel de sapinho">
+                    <div class="card__texto">
+                        <h3 class="">Sapinho</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/liso.jpg" alt="Anel liso (só com uma cor)">
+                    <div class="card__texto">
+                        <h3 class="">Liso</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/marmorizado.jpg" alt="Anel marmorizado">
+                    <div class="card__texto">
+                        <h3 class="">Marmorizado</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/halloween.jpg" alt="Anel de abóbora baseado no Halloween">
+                    <div class="card__texto">
+                        <h3 class="">Halloween</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="" alt="Anel personalizado">
+                    <div class="card__texto">
+                        <h3 class="">Personalizado! </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="produtos__final">
+                <p>Conheça nosso Instagram e fique atento às novidades! </strong></p>
+                <a class="botao produtos__botao"
+                href="https://www.instagram.com/lovering.cmpm/" target="_blank">QUERO VER AS NOVIDADES!</a>
+            </div>
+        </div>
         </section>
 
     </main>
+  
 </body>
+
 </html>
