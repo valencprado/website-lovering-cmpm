@@ -4,16 +4,32 @@
 
 Site feito para o Itinerário Formativo de Pequena Empresa do Colégio Madre Paula Montalt Escolápias do segundo semestre de 2023. Colaboração como ex-aluna.
 
-**Status**: Em desenvolvimento 🚧
+## Tecnologias e conceitos utilizados:
 
-- [ ] estrutura do navbar
-- [ ] estrutura do início
-- [ ] estrutura dos produtos
-- [ ] estrutura do quem somos (intro)
-- [ ] estrutura do quem somos (integrantes)
-- [ ] estilo do navbar
-- [ ] estilo do início
-- [ ] estilo do produtos
-- [ ] estilo do quem somos (intro)
-- [ ] estilo do quem somos (intro)
-- [ ] responsividade para desktop 
+- HTML
+- CSS
+- Mobile-First
+- Flexbox
+
+  
+## Desenvolvimento
+
+**Status**: Em produção ☑️
+
+- [ x ] estrutura do navbar
+- [ x ] estrutura do início
+- [ x ] estrutura dos produtos
+- [ x ] estrutura do quem somos (intro)
+- [ x ] estrutura do quem somos (integrantes)
+- [ x ] estilo do navbar
+- [ x ] estilo do início
+- [ x ] estilo do produtos
+- [ x ] estilo do quem somos (intro)
+- [ x ] estilo do quem somos (intro)
+- [ x ] responsividade para desktop
+
+  ## 🔥 Hot fixes
+  
+  - [] bug no navbar
+ 
+    *Feito por Valentina Prado*
