@@ -67,6 +67,9 @@
     .quem-somos__content__imagem img {
         width: 100%;
     }
+    .integrantes {
+        margin: 0;
+    }
     .integrantes__container {
         flex-direction: row;
         flex-wrap: wrap;
